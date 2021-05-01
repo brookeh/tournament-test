@@ -1,8 +1,7 @@
-import { Inject, Singleton } from "typescript-ioc";
+import { Inject } from "typescript-ioc";
 import { Logger, NumberListPrinter } from "../common";
 import { FizzBuzzReplacer } from "./fizzbuzz-replacer";
 
-@Singleton
 export class FizzBuzzPrinter implements NumberListPrinter {
   private readonly logger: Logger;
   private readonly replacer: FizzBuzzReplacer;

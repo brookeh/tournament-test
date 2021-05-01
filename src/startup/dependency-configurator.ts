@@ -1,4 +1,3 @@
-
 import { Container, Scope, } from "typescript-ioc";
 import { Logger, ConsoleLogger, NumberListPrinter } from "../common";
 import { FizzBuzzPrinter } from "../fizzbuzz";

@@ -1,7 +1,7 @@
 import {
   NumberReplacementHandler,
   NumberReplacementHandlerResult,
-  INumberReplacementHandlerResult,
+  INumberReplacementHandlerResult
 } from "../../common";
 
 export class BuzzForFiveHandler implements NumberReplacementHandler {
